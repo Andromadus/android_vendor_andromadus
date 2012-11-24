@@ -1,6 +1,7 @@
 PRODUCT_PACKAGES += \
     Superuser \
-    su
+    su \
+    Email
 
 PRODUCT_PROPERTY_OVERRIDES += \
     ro.modversion=$(shell date +%s)
